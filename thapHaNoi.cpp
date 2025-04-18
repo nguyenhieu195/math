@@ -1,7 +1,6 @@
 // Viết chương trình cài đặt bài toán tháp Hanoi, số lần di chuyển được tính bởi công hức C(n) = 2C(n-1) + 1 hay C(n) =2^n -1 (lần).
 #include <iostream>
 #include <stdio.h>
-//Nguyen Hieu
 char A = 'A', B = 'B', C = 'C';
 int n, dem = 0;
 void Move(int n, char A, char B, char C)
