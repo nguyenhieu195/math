@@ -5,20 +5,24 @@ char A = 'A', B = 'B', C = 'C';
 int n, dem = 0;
 void Move(int n, char A, char B, char C)
 {
+
     if (n == 1)
     {
         printf("chuyen: %c sang %c\n", A, C);
         dem++;
     }
+
     else
     {
         Move(n - 1, A, C, B);
         Move(1, A, B, C);
         Move(n - 1, B, A, C);
     }
+
 }
 int main(int argc, char **argv)
 {
+    
     printf("n = ");
     scanf("%d", &n);
     Move(n, A, B, C);
