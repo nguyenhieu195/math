@@ -30,22 +30,7 @@ double p(double n)
         return p(n - 1) + d * p(n - 1);
     }
 }
-////////
-////////
 
-/////////
-
-//////////
-///////
-///////
-//
-/
-/
-/
-    /
-
-
-    //
 int main(int argc, char *argv[])
 {
     cout << "P (" << n << ") = " << P(n) << endl;
