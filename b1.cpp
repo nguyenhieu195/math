@@ -26,7 +26,7 @@ int Init_Graph(const char *path) {
     while (!feof(fptr)) {
         fscanf(fptr, "%d", &i);
         fscanf(fptr, "%d", &j);
-        G[i][j] = G[j][i] = 1;  // Sửa lỗi gán sai (G[j][i] = G[i][j]; chưa gán gì cả)
+        G[i][j] = G[j][i] = 1;  
     }
 
     fclose(fptr);
