@@ -80,14 +80,14 @@ void Hamilton (int u){
 }
 
 int main() {
-    // if (!Init_Graph("Graph.txt")) {
-    //     View_Graph(G, n);
-    //     printf("Bac dinh:\n");
-    //     Vetexs(G, V, n);
-    //     // system("pause"); // Nếu bạn muốn dừng màn hình lại, nhưng có thể không cần thiết
-    //     return 0;
-    // }
-    // return 1;
+    if (!Init_Graph("Graph.txt")) {
+        View_Graph(G, n);
+        printf("Bac dinh:\n");
+        Vetexs(G, V, n);
+        // system("pause"); // Nếu bạn muốn dừng màn hình lại, nhưng có thể không cần thiết
+        return 0;
+    }
+    return 1;
 
 	if(Init_Graph("Graph.txt")){
 		C[0] = u;
