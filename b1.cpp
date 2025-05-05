@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h> 
 
-int G[20][20], C[20], T[20];
+int G[20][20], C[20], T[20], V[20];
 int n, u = 1;
 FILE *fptr;
 
