@@ -105,7 +105,7 @@ int main() {
         printf("Cac chu trinh Hamilton:\n");
         Hamilton(1);    // Bắt đầu tìm từ vị trí 1 (vì vị trí 0 là đỉnh xuất phát)
 
-        return 0; // Kết thúc chương trình
+        return 0; 
     }
 
     return 1; 
