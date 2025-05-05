@@ -108,5 +108,5 @@ int main() {
         return 0; // Kết thúc chương trình
     }
 
-    return 1; // Nếu đọc file thất bại
+    return 1; 
 }
