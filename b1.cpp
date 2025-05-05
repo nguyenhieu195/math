@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h> // Để dùng system("pause") nếu bạn muốn
+#include <stdlib.h> 
 
 int G[20][20], C[20], T[20];
 int n, u = 1;
