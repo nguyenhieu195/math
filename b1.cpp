@@ -52,7 +52,7 @@ void Vetexs(int G[20][20], int V[20], int n) {
         for (j = 1; j <= n; j++) {
             V[i] += G[i][j];
         }
-        V[i] += G[i][i];  // Tính cả bậc riêng (loop) nếu có
+        V[i] += G[i][i];  
         printf("deg(%d) = %d\t", i, V[i]);
     }
     printf("\n");
