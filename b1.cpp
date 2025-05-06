@@ -74,7 +74,7 @@ void Print(int n)
     }
     printf("\n");
 }
-
+//
 // Hàm tìm chu trình Hamilton bằng đệ quy quay lui (backtracking)
 void Hamilton (int u){
     for (int v = 1; v <= n; v++){
