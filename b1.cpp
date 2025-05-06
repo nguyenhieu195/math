@@ -16,7 +16,7 @@ int Init_Graph(const char *path) {
         printf("Error\n");
         return 1; // Trả về 1 nếu lỗi
     }
-
+//
     // Đọc số lượng đỉnh từ dòng đầu tiên
     fscanf(fptr, "%d", &n);
 
