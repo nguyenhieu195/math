@@ -9,7 +9,7 @@ FILE *fptr;
 // Hàm đọc đồ thị từ file văn bản
 int Init_Graph(const char *path) {
     int i, j;
-
+//
     // Mở file để đọc
     fptr = fopen(path, "r");
     if (fptr == NULL) {
