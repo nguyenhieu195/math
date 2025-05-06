@@ -64,7 +64,7 @@ void Vetexs(int G[20][20], int V[20], int n) {
     }
     printf("\n");
 }
-//
+
 // Hàm in ra chu trình Hamilton tìm được
 void Print(int n)
 {
