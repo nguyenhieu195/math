@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h> 
-l
+
 // Khai báo ma trận kề G, các mảng C (đường đi Hamilton), T (đánh dấu đỉnh đã đi), V (bậc đỉnh)
 int G[20][20], C[20], T[20], V[20];
 int n, u = 1; // n là số đỉnh, u là đỉnh bắt đầu tìm Hamilton
